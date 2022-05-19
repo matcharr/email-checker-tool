@@ -32,7 +32,7 @@ func main() {
 		checkDomain(scanner.Text())
 	}
 	if err := scanner.Err(); err != nil {
-		log.Fatal("Error: could not read from input: %v\n", err)
+		log.Printf("Error: could not read from input: %v\n", err)
 	}
 }
 
